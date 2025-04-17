@@ -1,0 +1,20 @@
+{
+  "name": "mcp-github-test",
+  "version": "1.0.0",
+  "description": "A test repository for Model Context Protocol (MCP) GitHub server integration",
+  "main": "examples/hello-world.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node examples/hello-world.js",
+    "test": "jest",
+    "dev": "ts-node examples/hello-world.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
